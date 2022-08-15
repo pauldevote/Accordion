@@ -1,0 +1,33 @@
+[
+    {
+        "type": "array",
+        "label": "Content",
+        "id": "content",
+        "defaultCount": 3,
+        "entryLabel": "item",
+        "schema": [
+            {
+                "type": "tab",
+                "label": "Item content",
+                "sections": [
+                    {
+                        "settings": [
+                            {
+                                "type": "text",
+                                "label": "Title",
+                                "id": "title",
+                                "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            },
+                            {
+                                "type": "text",
+                                "label": "Content",
+                                "id": "content",
+                                "default": "Fusce quis diam a leo viverra condimentum. Mauris fermentum varius pulvinar. Vivamus sit amet sem non tellus hendrerit tincidunt in ac odio."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
